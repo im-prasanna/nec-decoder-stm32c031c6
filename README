@@ -1,0 +1,7 @@
+NEC Decoder using GPIO and SysTick functionality of STM32C031C6.
+
+The code assumes the connecions provided in 'circuit.png'.
+
+Final build binary of the firmware - "nec_decoder_stm32c031c6.bin"
+
+
