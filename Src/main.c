@@ -48,7 +48,7 @@ void nec_decoder(){
 		if(timer>=4) data |= 0b1;
 	}
 	if(count==34){
-		itoa(((data>>8)&0xFF), buff, 10);
+		// itoa(((data>>8)&0xFF), buff, 10);
 		lcd_clear();
 		lcd_print("Command: ");
 		lcd_print(buff);

@@ -1,7 +1,14 @@
 NEC Decoder using GPIO and SysTick functionality of STM32C031C6.
 
-The code assumes the connecions provided in 'circuit.png'.
+The code assumes the connections provided in 'circuit.png'.
 
-Final build binary of the firmware - "nec_decoder_stm32c031c6.bin"
+Final build binary of the firmware - "build/firmware.bin"
 
+To build use: make all
+To clean use: make clean
+
+References:
+https://www.st.com/resource/en/reference_manual/rm0490-stm32c0-series-advanced-armbased-32bit-mcus-stmicroelectronics.pdf
+
+https://developer.arm.com/documentation/102835/0100/?lang=en
 
